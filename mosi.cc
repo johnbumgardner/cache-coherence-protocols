@@ -95,17 +95,11 @@ void MOSI::BusRd(ulong addr) {
                 state = line->get_state();
                 if (state == M) {
                       flushes++;
-                      write_backs++;
-                      memory_transactions++;
-                      interventions++;
-                      line->set_state(S);
-                      M2S++;
+                      line->set_state(O);
+                      M2O++;
                 }
                 else if (state == O) {
                       flushes++;
-                      write_backs++;
-                      memory_transactions++;
-                      interventions++;
                 }
                 else if (state == I || state == S){
                         //nothing happens in this state
