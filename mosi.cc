@@ -73,7 +73,6 @@ void MOSI::PrWr(ulong addr, int processor_number) {
                         line->set_state(M);
                         update_LRU(line);
                         bus_upgrades++;
-                        memory_transactions++;
                         sendBusUpgr(addr, processor_number);
                 }
                 else if (state == O) {
@@ -101,8 +100,8 @@ void MOSI::BusRd(ulong addr) {
                 else if (state == O) {
                       flushes++;
                 }
-                else if (state == I || state == S){
-                        //nothing happens in this state
+                else if (state == S){
+                        cache2cache++;
                 }
         }
 }
