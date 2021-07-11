@@ -1,0 +1,17 @@
+Cache_Number,reads,read misses,writes,write misses,total miss rate,writebacks,memory transactions,cache-to-cache transfers,interventions,invalidations,flushes,BusRds issued,BusRdXs issued,BusUpgrs issued,BusWrs issued,
+Cache_0,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_1,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_2,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_3,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_4,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_5,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_6,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_7,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_8,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_9,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_10,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_11,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_12,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_13,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_14,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0
+Cache_15,0,0,0,0,-nan,0,0,0,0,0,0,0,0,0,0

@@ -30,6 +30,7 @@ void MOSI::PrRd(ulong addr, int processor_number) {
        }
         else {
                 state=line->get_state();
+
                 if (state == I){
                         read_misses++;
                         cache_line *newline = allocate_line(addr);
@@ -40,6 +41,7 @@ void MOSI::PrRd(ulong addr, int processor_number) {
                         sendBusRd(addr, processor_number);
                 }
              else if (state == M || state == S || state == O){
+                memory_transactions++;
                 update_LRU(line);
                 }
         }
@@ -63,6 +65,7 @@ void MOSI::PrWr(ulong addr, int processor_number) {
         else {
                 state=line->get_state();
                 if (state == M) {
+                        memory_transactions++;
                         update_LRU(line);
                 }
                 else if (state == S) {
@@ -123,16 +126,12 @@ void MOSI::BusRdX(ulong addr) {
                 {
                         flushes++;
                         invalidations++;
-                        write_backs++;
-                        memory_transactions++;
                         line->set_state(I);
                 }
                 else if (state == O)
                 {
                         flushes++;
                         invalidations++;
-                        write_backs++;
-                        memory_transactions++;
                         line->set_state(I);
                 }
                 else if (state == I) {
@@ -149,14 +148,10 @@ void MOSI::BusUpgr(ulong addr) {
        {
                 state = line->get_state();
                 if (state == O) {
-                      write_backs++;
-                      memory_transactions++;
                       invalidations++;
                       line->set_state(I);
                 }
                 else if (state == S) {
-                      write_backs++;
-                      memory_transactions++;
                       invalidations++;
                       line->set_state(I);
                 }
