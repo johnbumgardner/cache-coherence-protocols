@@ -46,7 +46,6 @@ void MOSI::PrRd(ulong addr, int processor_number) {
                         sendBusRd(addr, processor_number);
                 }
              else if (state == M || state == S || state == O){
-                memory_transactions++;
                 update_LRU(line);
                 }
         }
@@ -75,7 +74,6 @@ void MOSI::PrWr(ulong addr, int processor_number) {
         else {
                 state=line->get_state();
                 if (state == M) {
-                        memory_transactions++;
                         update_LRU(line);
                 }
                 else if (state == S) {
@@ -90,7 +88,6 @@ void MOSI::PrWr(ulong addr, int processor_number) {
                         line->set_state(M);
                         update_LRU(line);
                         bus_upgrades++;
-                        memory_transactions++;
                         sendBusUpgr(addr, processor_number);
                 }
          }
