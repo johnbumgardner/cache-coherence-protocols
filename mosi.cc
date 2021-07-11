@@ -15,7 +15,6 @@ using namespace std;
 #include "mosi.h"
 
 void MOSI::PrRd(ulong addr, int processor_number) {
-        printf("PrRd");
         cache_state state;
         reads++;
         current_cycle++;
@@ -50,7 +49,6 @@ void MOSI::PrRd(ulong addr, int processor_number) {
 
 
 void MOSI::PrWr(ulong addr, int processor_number) {
-        print("PrWr");
         cache_state state;
         current_cycle++;
         writes++;
