@@ -101,6 +101,8 @@ void MOSI::BusRd(ulong addr) {
                 state = line->get_state();
                 if (state == M) {
                       flushes++;
+                      write_backs++;
+                        memory_transactions++;
                       line->set_state(O);
                       M2O++;
                 }
