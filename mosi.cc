@@ -70,11 +70,12 @@ void MOSI::PrWr(ulong addr, int processor_number) {
                 state=line->get_state();
                 if (state == M) {
                         update_LRU(line);
+                        write_backs++;
                 }
                 else if (state == S) {
                         S2M++;
                         line->set_state(M);
-                        write_backs++;
+
                         update_LRU(line);
                         bus_upgrades++;
                         sendBusUpgr(addr, processor_number);
