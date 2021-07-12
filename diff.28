@@ -1,448 +1,352 @@
-10,16c10,16
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
+11c11
+< 2 . number of read misses:                201
 ---
-> 1 . number of reads:                      2580
 > 2 . number of read misses:                136
-> 3 . number of writes:                     2615
+13,14c13,14
+< 4 . number of write misses:               1181
+< 5 . total miss rate:                      0.266025
+---
 > 4 . number of write misses:               257
 > 5 . total miss rate:                      0.075650
-> 6 . number of writebacks:                 2615
+16c16
+< 7 . number of memory transactions:        2563
+---
 > 7 . number of memory transactions:        3008
 19c19
-< 10. number of invalidations:              0
+< 10. number of invalidations:              65830608
 ---
 > 10. number of invalidations:              151
 21c21
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              201
 ---
 > 12. number of BusRds issued:              136
-24c24
-< 15. number of BusWrs issued:              0
+27c27
+< 2 . number of read misses:                693564
 ---
-> 15. number of BusWrs issued:              2615
-26,32c26,32
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      18010101
 > 2 . number of read misses:                556930
-> 3 . number of writes:                     5126705
+29,30c29,30
+< 4 . number of write misses:               1018586
+< 5 . total miss rate:                      0.074001
+---
 > 4 . number of write misses:               318915
 > 5 . total miss rate:                      0.037855
-> 6 . number of writebacks:                 5126705
+32c32
+< 7 . number of memory transactions:        2730736
+---
 > 7 . number of memory transactions:        6002550
 35c35
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60706518
 ---
 > 10. number of invalidations:              409010
 37c37
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              693564
 ---
 > 12. number of BusRds issued:              556930
-40c40
-< 15. number of BusWrs issued:              0
+43c43
+< 2 . number of read misses:                496282
 ---
-> 15. number of BusWrs issued:              5126705
-42,48c42,48
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      17455201
 > 2 . number of read misses:                405989
-> 3 . number of writes:                     4965052
+45,48c45,48
+< 4 . number of write misses:               747556
+< 5 . total miss rate:                      0.055478
+< 6 . number of writebacks:                 4965054
+< 7 . number of memory transactions:        1991394
+---
 > 4 . number of write misses:               192035
 > 5 . total miss rate:                      0.026673
 > 6 . number of writebacks:                 4965052
 > 7 . number of memory transactions:        5563076
 51c51
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60868171
 ---
 > 10. number of invalidations:              268787
 53c53
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              496282
 ---
 > 12. number of BusRds issued:              405989
-56c56
-< 15. number of BusWrs issued:              0
+59c59
+< 2 . number of read misses:                191609
 ---
-> 15. number of BusWrs issued:              4965052
-58,64c58,64
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      5603794
 > 2 . number of read misses:                156944
-> 3 . number of writes:                     1597675
+61,64c61,64
+< 4 . number of write misses:               328372
+< 5 . total miss rate:                      0.072205
+< 6 . number of writebacks:                 1597676
+< 7 . number of memory transactions:        848353
+---
 > 4 . number of write misses:               92980
 > 5 . total miss rate:                      0.034705
 > 6 . number of writebacks:                 1597675
 > 7 . number of memory transactions:        1847599
 67c67
-< 10. number of invalidations:              0
+< 10. number of invalidations:              64235548
 ---
 > 10. number of invalidations:              118030
 69c69
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              191609
 ---
 > 12. number of BusRds issued:              156944
-72c72
-< 15. number of BusWrs issued:              0
+75c75
+< 2 . number of read misses:                218223
 ---
-> 15. number of BusWrs issued:              1597675
-74,80c74,80
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      5595186
 > 2 . number of read misses:                177253
-> 3 . number of writes:                     1592506
+77,78c77,78
+< 4 . number of write misses:               312407
+< 5 . total miss rate:                      0.073825
+---
 > 4 . number of write misses:               106845
 > 5 . total miss rate:                      0.039526
-> 6 . number of writebacks:                 1592506
+80c80
+< 7 . number of memory transactions:        843037
+---
 > 7 . number of memory transactions:        1876604
 83c83
-< 10. number of invalidations:              0
+< 10. number of invalidations:              64240717
 ---
 > 10. number of invalidations:              144084
 85c85
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              218223
 ---
 > 12. number of BusRds issued:              177253
-88c88
-< 15. number of BusWrs issued:              0
+91c91
+< 2 . number of read misses:                205403
 ---
-> 15. number of BusWrs issued:              1592506
-90,96c90,96
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      5594622
 > 2 . number of read misses:                164673
-> 3 . number of writes:                     1591768
+93,96c93,96
+< 4 . number of write misses:               305510
+< 5 . total miss rate:                      0.071095
+< 6 . number of writebacks:                 1591770
+< 7 . number of memory transactions:        816423
+---
 > 4 . number of write misses:               101713
 > 5 . total miss rate:                      0.037068
 > 6 . number of writebacks:                 1591768
 > 7 . number of memory transactions:        1858154
 99c99
-< 10. number of invalidations:              0
+< 10. number of invalidations:              64241455
 ---
 > 10. number of invalidations:              143648
 101c101
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              205403
 ---
 > 12. number of BusRds issued:              164673
-104c104
-< 15. number of BusWrs issued:              0
+107c107
+< 2 . number of read misses:                626436
 ---
-> 15. number of BusWrs issued:              1591768
-106,112c106,112
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      18011769
 > 2 . number of read misses:                505980
-> 3 . number of writes:                     5128428
+109,110c109,110
+< 4 . number of write misses:               949503
+< 5 . total miss rate:                      0.068104
+---
 > 4 . number of write misses:               287496
 > 5 . total miss rate:                      0.034290
-> 6 . number of writebacks:                 5128428
+112c112
+< 7 . number of memory transactions:        2525442
+---
 > 7 . number of memory transactions:        5921904
 115c115
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60704795
 ---
 > 10. number of invalidations:              425743
 117c117
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              626436
 ---
 > 12. number of BusRds issued:              505980
-120c120
-< 15. number of BusWrs issued:              0
+123c123
+< 2 . number of read misses:                626932
 ---
-> 15. number of BusWrs issued:              5128428
-122,128c122,128
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      17991402
 > 2 . number of read misses:                502247
-> 3 . number of writes:                     5121878
+125,126c125,126
+< 4 . number of write misses:               1005837
+< 5 . total miss rate:                      0.070642
+---
 > 4 . number of write misses:               282467
 > 5 . total miss rate:                      0.033951
-> 6 . number of writebacks:                 5121878
+128c128
+< 7 . number of memory transactions:        2638606
+---
 > 7 . number of memory transactions:        5906592
 131c131
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60711345
 ---
 > 10. number of invalidations:              330021
 133c133
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              626932
 ---
 > 12. number of BusRds issued:              502247
-136c136
-< 15. number of BusWrs issued:              0
+139c139
+< 2 . number of read misses:                598570
 ---
-> 15. number of BusWrs issued:              5121878
-138,144c138,144
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      18020064
 > 2 . number of read misses:                480057
-> 3 . number of writes:                     5129876
+141,142c141,142
+< 4 . number of write misses:               937935
+< 5 . total miss rate:                      0.066372
+---
 > 4 . number of write misses:               285526
 > 5 . total miss rate:                      0.033071
-> 6 . number of writebacks:                 5129876
+144c144
+< 7 . number of memory transactions:        2474440
+---
 > 7 . number of memory transactions:        5895459
 147c147
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60703347
 ---
 > 10. number of invalidations:              384840
 149c149
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              598570
 ---
 > 12. number of BusRds issued:              480057
-152c152
-< 15. number of BusWrs issued:              0
+155c155
+< 2 . number of read misses:                635071
 ---
-> 15. number of BusWrs issued:              5129876
-154,160c154,160
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      18018280
 > 2 . number of read misses:                503465
-> 3 . number of writes:                     5129962
+157,158c157,158
+< 4 . number of write misses:               1031655
+< 5 . total miss rate:                      0.072002
+---
 > 4 . number of write misses:               316758
 > 5 . total miss rate:                      0.035433
-> 6 . number of writebacks:                 5129962
+160c160
+< 7 . number of memory transactions:        2698381
+---
 > 7 . number of memory transactions:        5950185
 163c163
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60703261
 ---
 > 10. number of invalidations:              383844
 165c165
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              635071
 ---
 > 12. number of BusRds issued:              503465
-168c168
-< 15. number of BusWrs issued:              0
+171c171
+< 2 . number of read misses:                714907
 ---
-> 15. number of BusWrs issued:              5129962
-170,176c170,176
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      18010221
 > 2 . number of read misses:                592235
-> 3 . number of writes:                     5124752
+173,174c173,174
+< 4 . number of write misses:               948320
+< 5 . total miss rate:                      0.071892
+---
 > 4 . number of write misses:               278344
 > 5 . total miss rate:                      0.037630
-> 6 . number of writebacks:                 5124752
+176c176
+< 7 . number of memory transactions:        2611547
+---
 > 7 . number of memory transactions:        5995331
 179c179
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60708471
 ---
 > 10. number of invalidations:              370226
 181c181
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              714907
 ---
 > 12. number of BusRds issued:              592235
-184c184
-< 15. number of BusWrs issued:              0
+187c187
+< 2 . number of read misses:                463113
 ---
-> 15. number of BusWrs issued:              5124752
-186,192c186,192
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      17929505
 > 2 . number of read misses:                374018
-> 3 . number of writes:                     5104657
+189,192c189,192
+< 4 . number of write misses:               873180
+< 5 . total miss rate:                      0.058014
+< 6 . number of writebacks:                 5104658
+< 7 . number of memory transactions:        2209473
+---
 > 4 . number of write misses:               178008
 > 5 . total miss rate:                      0.023966
 > 6 . number of writebacks:                 5104657
 > 7 . number of memory transactions:        5656683
 195c195
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60728566
 ---
 > 10. number of invalidations:              237342
 197c197
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              463113
 ---
 > 12. number of BusRds issued:              374018
-200c200
-< 15. number of BusWrs issued:              0
+203c203
+< 2 . number of read misses:                599381
 ---
-> 15. number of BusWrs issued:              5104657
-202,208c202,208
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      17571527
 > 2 . number of read misses:                478598
-> 3 . number of writes:                     5003049
+205,208c205,208
+< 4 . number of write misses:               967292
+< 5 . total miss rate:                      0.069400
+< 6 . number of writebacks:                 5003051
+< 7 . number of memory transactions:        2533965
+---
 > 4 . number of write misses:               280453
 > 5 . total miss rate:                      0.033624
 > 6 . number of writebacks:                 5003049
 > 7 . number of memory transactions:        5762100
 211c211
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60830174
 ---
 > 10. number of invalidations:              364442
 213c213
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              599381
 ---
 > 12. number of BusRds issued:              478598
-216c216
-< 15. number of BusWrs issued:              0
+219c219
+< 2 . number of read misses:                551229
 ---
-> 15. number of BusWrs issued:              5003049
-218,224c218,224
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      17952911
 > 2 . number of read misses:                428668
-> 3 . number of writes:                     5108336
+221,222c221,222
+< 4 . number of write misses:               969332
+< 5 . total miss rate:                      0.065936
+---
 > 4 . number of write misses:               254586
 > 5 . total miss rate:                      0.029628
-> 6 . number of writebacks:                 5108336
+224c224
+< 7 . number of memory transactions:        2489893
+---
 > 7 . number of memory transactions:        5791590
 227c227
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60724887
 ---
 > 10. number of invalidations:              299166
 229c229
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              551229
 ---
 > 12. number of BusRds issued:              428668
-232c232
-< 15. number of BusWrs issued:              0
+235c235
+< 2 . number of read misses:                525260
 ---
-> 15. number of BusWrs issued:              5108336
-234,240c234,240
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      17514859
 > 2 . number of read misses:                441224
-> 3 . number of writes:                     4982051
+237,240c237,240
+< 4 . number of write misses:               792780
+< 5 . total miss rate:                      0.058588
+< 6 . number of writebacks:                 4982052
+< 7 . number of memory transactions:        2110820
+---
 > 4 . number of write misses:               197244
 > 5 . total miss rate:                      0.028380
 > 6 . number of writebacks:                 4982051
 > 7 . number of memory transactions:        5620519
 243c243
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60851172
 ---
 > 10. number of invalidations:              274450
 245c245
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              525260
 ---
 > 12. number of BusRds issued:              441224
-248c248
-< 15. number of BusWrs issued:              0
+251c251
+< 2 . number of read misses:                595627
 ---
-> 15. number of BusWrs issued:              4982051
-250,256c250,256
-< 1 . number of reads:                      0
-< 2 . number of read misses:                0
-< 3 . number of writes:                     0
-< 4 . number of write misses:               0
-< 5 . total miss rate:                      -nan
-< 6 . number of writebacks:                 0
-< 7 . number of memory transactions:        0
----
-> 1 . number of reads:                      18005431
 > 2 . number of read misses:                483948
-> 3 . number of writes:                     5123913
+253,256c253,256
+< 4 . number of write misses:               885645
+< 5 . total miss rate:                      0.064043
+< 6 . number of writebacks:                 5123914
+< 7 . number of memory transactions:        2366917
+---
 > 4 . number of write misses:               262272
 > 5 . total miss rate:                      0.032263
 > 6 . number of writebacks:                 5123913
 > 7 . number of memory transactions:        5870133
 259c259
-< 10. number of invalidations:              0
+< 10. number of invalidations:              60709310
 ---
 > 10. number of invalidations:              350189
 261c261
-< 12. number of BusRds issued:              0
+< 12. number of BusRds issued:              595627
 ---
 > 12. number of BusRds issued:              483948
-264c264
-< 15. number of BusWrs issued:              0
----
-> 15. number of BusWrs issued:              5123913

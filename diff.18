@@ -1,224 +1,128 @@
-15,18c15,18
-< 6 . number of writebacks:                 155
-< 7 . number of memory transactions:        5350
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              141
+15,17c15,17
+< 6 . number of writebacks:                 77
+< 7 . number of memory transactions:        305
+< 8 . number of cache-to-cache transfers:   54
 ---
 > 6 . number of writebacks:                 65
 > 7 . number of memory transactions:        292
 > 8 . number of cache-to-cache transfers:   64
-> 9 . number of interventions:              0
-20c20
-< 11. number of flushes:                    190
----
-> 11. number of flushes:                    33053
-31,34c31,34
-< 6 . number of writebacks:                 285882
-< 7 . number of memory transactions:        23422688
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              179966
+31,33c31,33
+< 6 . number of writebacks:                 253844
+< 7 . number of memory transactions:        818826
+< 8 . number of cache-to-cache transfers:   51843
 ---
 > 6 . number of writebacks:                 298364
 > 7 . number of memory transactions:        572088
 > 8 . number of cache-to-cache transfers:   439186
-> 9 . number of interventions:              0
-36c36
-< 11. number of flushes:                    358300
----
-> 11. number of flushes:                    425195
-47,50c47,50
-< 6 . number of writebacks:                 180646
-< 7 . number of memory transactions:        22600899
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              140280
+47,49c47,49
+< 6 . number of writebacks:                 161037
+< 7 . number of memory transactions:        474539
+< 8 . number of cache-to-cache transfers:   27820
 ---
 > 6 . number of writebacks:                 146774
 > 7 . number of memory transactions:        288344
 > 8 . number of cache-to-cache transfers:   292603
-> 9 . number of interventions:              0
-52c52
-< 11. number of flushes:                    239957
----
-> 11. number of flushes:                    301475
-63,66c63,66
-< 6 . number of writebacks:                 68980
-< 7 . number of memory transactions:        7270449
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              56157
+63,65c63,65
+< 6 . number of writebacks:                 60812
+< 7 . number of memory transactions:        178111
+< 8 . number of cache-to-cache transfers:   9150
 ---
 > 6 . number of writebacks:                 63841
 > 7 . number of memory transactions:        104731
 > 8 . number of cache-to-cache transfers:   124398
-> 9 . number of interventions:              0
-68c68
-< 11. number of flushes:                    105349
----
-> 11. number of flushes:                    126957
-79,82c79,82
-< 6 . number of writebacks:                 86094
-< 7 . number of memory transactions:        7273786
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              66461
+79,81c79,81
+< 6 . number of writebacks:                 75783
+< 7 . number of memory transactions:        224791
+< 8 . number of cache-to-cache transfers:   13105
 ---
 > 6 . number of writebacks:                 87351
 > 7 . number of memory transactions:        137663
 > 8 . number of cache-to-cache transfers:   154846
-> 9 . number of interventions:              0
-84c84
-< 11. number of flushes:                    131052
----
-> 11. number of flushes:                    158423
-95,98c95,98
-< 6 . number of writebacks:                 84774
-< 7 . number of memory transactions:        7271164
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              63146
+95,97c95,97
+< 6 . number of writebacks:                 75807
+< 7 . number of memory transactions:        234423
+< 8 . number of cache-to-cache transfers:   10903
 ---
 > 6 . number of writebacks:                 87477
 > 7 . number of memory transactions:        146770
 > 8 . number of cache-to-cache transfers:   153502
-> 9 . number of interventions:              0
-100c100
-< 11. number of flushes:                    125774
----
-> 11. number of flushes:                    152394
-111,114c111,114
-< 6 . number of writebacks:                 231781
-< 7 . number of memory transactions:        23371978
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              192496
+111,113c111,113
+< 6 . number of writebacks:                 201605
+< 7 . number of memory transactions:        639803
+< 8 . number of cache-to-cache transfers:   39338
 ---
 > 6 . number of writebacks:                 234217
 > 7 . number of memory transactions:        388937
 > 8 . number of cache-to-cache transfers:   445798
-> 9 . number of interventions:              0
-116c116
-< 11. number of flushes:                    378355
----
-> 11. number of flushes:                    454898
-127,130c127,130
-< 6 . number of writebacks:                 248470
-< 7 . number of memory transactions:        23361750
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              153716
+127,129c127,129
+< 6 . number of writebacks:                 220818
+< 7 . number of memory transactions:        718028
+< 8 . number of cache-to-cache transfers:   30701
 ---
 > 6 . number of writebacks:                 232936
 > 7 . number of memory transactions:        499898
 > 8 . number of cache-to-cache transfers:   356312
-> 9 . number of interventions:              0
-132c132
-< 11. number of flushes:                    281948
----
-> 11. number of flushes:                    335093
-143,146c143,146
-< 6 . number of writebacks:                 224275
-< 7 . number of memory transactions:        23374215
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              174211
+143,145c143,145
+< 6 . number of writebacks:                 194702
+< 7 . number of memory transactions:        631629
+< 8 . number of cache-to-cache transfers:   35314
 ---
 > 6 . number of writebacks:                 233391
 > 7 . number of memory transactions:        401763
 > 8 . number of cache-to-cache transfers:   413193
-> 9 . number of interventions:              0
-148c148
-< 11. number of flushes:                    348887
----
-> 11. number of flushes:                    416860
-159,162c159,162
-< 6 . number of writebacks:                 241931
-< 7 . number of memory transactions:        23390173
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              174439
+159,161c159,161
+< 6 . number of writebacks:                 211124
+< 7 . number of memory transactions:        664303
+< 8 . number of cache-to-cache transfers:   32396
 ---
 > 6 . number of writebacks:                 249255
 > 7 . number of memory transactions:        438624
 > 8 . number of cache-to-cache transfers:   407442
-> 9 . number of interventions:              0
-164c164
-< 11. number of flushes:                    345304
----
-> 11. number of flushes:                    417388
-175,178c175,178
-< 6 . number of writebacks:                 246449
-< 7 . number of memory transactions:        23381422
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              173015
+175,177c175,177
+< 6 . number of writebacks:                 218201
+< 7 . number of memory transactions:        857556
+< 8 . number of cache-to-cache transfers:   34750
 ---
 > 6 . number of writebacks:                 244385
 > 7 . number of memory transactions:        603448
 > 8 . number of cache-to-cache transfers:   425059
-> 9 . number of interventions:              0
-180c180
-< 11. number of flushes:                    331581
----
-> 11. number of flushes:                    393471
-191,194c191,194
-< 6 . number of writebacks:                 175596
-< 7 . number of memory transactions:        23209758
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              128239
+191,193c191,193
+< 6 . number of writebacks:                 157976
+< 7 . number of memory transactions:        429323
+< 8 . number of cache-to-cache transfers:   25447
 ---
 > 6 . number of writebacks:                 130051
 > 7 . number of memory transactions:        255651
 > 8 . number of cache-to-cache transfers:   256366
-> 9 . number of interventions:              0
-196c196
-< 11. number of flushes:                    204787
----
-> 11. number of flushes:                    246799
-207,210c207,210
-< 6 . number of writebacks:                 227668
-< 7 . number of memory transactions:        22802244
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              163505
+207,209c207,209
+< 6 . number of writebacks:                 199165
+< 7 . number of memory transactions:        638960
+< 8 . number of cache-to-cache transfers:   31729
 ---
 > 6 . number of writebacks:                 234205
 > 7 . number of memory transactions:        418542
 > 8 . number of cache-to-cache transfers:   390460
-> 9 . number of interventions:              0
-212c212
-< 11. number of flushes:                    324463
----
-> 11. number of flushes:                    397341
-223,226c223,226
-< 6 . number of writebacks:                 240632
-< 7 . number of memory transactions:        23301879
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              159219
+223,225c223,225
+< 6 . number of writebacks:                 217426
+< 7 . number of memory transactions:        591016
+< 8 . number of cache-to-cache transfers:   34468
 ---
 > 6 . number of writebacks:                 205143
 > 7 . number of memory transactions:        396591
 > 8 . number of cache-to-cache transfers:   318155
-> 9 . number of interventions:              0
-228c228
-< 11. number of flushes:                    273066
----
-> 11. number of flushes:                    331336
-239,242c239,242
-< 6 . number of writebacks:                 182489
-< 7 . number of memory transactions:        22679399
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              140202
+239,241c239,241
+< 6 . number of writebacks:                 164054
+< 7 . number of memory transactions:        487669
+< 8 . number of cache-to-cache transfers:   27618
 ---
 > 6 . number of writebacks:                 147215
 > 7 . number of memory transactions:        303222
 > 8 . number of cache-to-cache transfers:   289375
-> 9 . number of interventions:              0
-244c244
-< 11. number of flushes:                    239436
----
-> 11. number of flushes:                    296562
-255,258c255,258
-< 6 . number of writebacks:                 240757
-< 7 . number of memory transactions:        23370101
-< 8 . number of cache-to-cache transfers:   0
-< 9 . number of interventions:              162339
+255,257c255,257
+< 6 . number of writebacks:                 215151
+< 7 . number of memory transactions:        677019
+< 8 . number of cache-to-cache transfers:   32138
 ---
 > 6 . number of writebacks:                 231132
 > 7 . number of memory transactions:        445943
 > 8 . number of cache-to-cache transfers:   383790
-> 9 . number of interventions:              0
-260c260
-< 11. number of flushes:                    304742
----
-> 11. number of flushes:                    363304
