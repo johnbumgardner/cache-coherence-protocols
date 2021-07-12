@@ -40,8 +40,12 @@ void MOSI::PrRd(ulong addr, int processor_number) {
                         bus_reads++;
                         sendBusRd(addr, processor_number);
                 }
-             else if (state == M || state == S || state == O){
+             else if (state == M || state == O){
                 update_LRU(line);
+                }
+                else if(state == S) {
+                        cache2cache++;
+                        update_LRU(line);
                 }
         }
 }
@@ -101,7 +105,7 @@ void MOSI::BusRd(ulong addr) {
                       flushes++;
                 }
                 else if (state == S){
-                        cache2cache++;
+
                 }
         }
 }
