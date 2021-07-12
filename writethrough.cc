@@ -19,6 +19,7 @@ void writethrough::PrRd(ulong addr, int processor_number) {
         current_cycle++;
         reads++;
         cache_line * line = find_line(addr);
+        memory_transactions++;
         if(line == NULL) {
                 read_misses++;
                 cache_line *newline = allocate_line(addr);
@@ -44,6 +45,8 @@ void writethrough::PrRd(ulong addr, int processor_number) {
 void writethrough::PrWr(ulong addr, int processor_number) {
     current_cycle++;
     writes++;
+    memory_transactions++;
+        write_backs++;
     cache_line * line = find_line(addr);
     if(line == NULL) {
         write_misses++;
@@ -65,8 +68,6 @@ void writethrough::PrWr(ulong addr, int processor_number) {
 }
 
 void writethrough::BusRd(ulong addr) {
-       memory_transactions++;
-       write_backs++;
 }
 
 void writethrough::BusWr(ulong addr) {
