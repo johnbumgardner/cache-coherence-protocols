@@ -48,7 +48,7 @@ void writethrough::PrWr(ulong addr, int processor_number) {
     writes++;
     cache_line * line = find_line(addr);
     if (line == NULL || line->get_state() == I){
-                write_misses++;
+                write_misses = line->get_state() == I ? write_misses + 1 : write_misses;
                 cache_line *newline = allocate_line(addr);
                 newline->set_state(I);
                 memory_transactions++;
