@@ -83,6 +83,7 @@ void MOSI::PrWr(ulong addr, int processor_number) {
                         line->set_state(M);
                         update_LRU(line);
                         bus_upgrades++;
+                        write_backs++;
                         sendBusUpgr(addr, processor_number);
                 }
          }
