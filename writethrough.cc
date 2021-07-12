@@ -44,7 +44,6 @@ void writethrough::PrRd(ulong addr, int processor_number) {
 }
 
 void writethrough::PrWr(ulong addr, int processor_number) {
-        cache_state state;
     current_cycle++;
     writes++;
     cache_line * line = find_line(addr);
@@ -54,7 +53,7 @@ void writethrough::PrWr(ulong addr, int processor_number) {
                 newline->set_state(I);
                 memory_transactions++;
                 bus_writes++;
-                ssendBusWr(addr, processor_number);
+                sendBusWr(addr, processor_number);
      }
     else
 {
