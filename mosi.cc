@@ -60,12 +60,7 @@ void MOSI::PrWr(ulong addr, int processor_number) {
         if (line == NULL || line->get_state() == I) {
                 write_misses++;
                 cache_line *newline = allocate_line(addr);
-                if (sharers_exclude(addr, processor_number) > 0) {
-                        cache2cache++;
-                }
-                else {
-                        memory_transactions++;
-                }
+                memory_transactions++;
                 I2M++;
                 newline->set_state(M);
                 bus_readxs++;
@@ -101,8 +96,6 @@ void MOSI::BusRd(ulong addr) {
                 state = line->get_state();
                 if (state == M) {
                       flushes++;
-                      write_backs++;
-                        memory_transactions++;
                       line->set_state(O);
                       M2O++;
                 }
