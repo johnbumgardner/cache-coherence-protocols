@@ -34,12 +34,7 @@ void MOSI::PrRd(ulong addr, int processor_number) {
                 if (state == I){
                         read_misses++;
                         cache_line *newline = allocate_line(addr);
-                        if (sharers_exclude(addr, processor_number) > 0) {
-                                cache2cache++;
-                        }
-                        else {
-                                memory_transactions++;
-                        }
+                        memory_transactions++;
                         I2S++;
                         newline->set_state(S);
                         bus_reads++;
@@ -106,7 +101,7 @@ void MOSI::BusRd(ulong addr) {
                       flushes++;
                 }
                 else if (state == S){
-                        
+                        cache2cache++;
                 }
         }
 }
