@@ -44,7 +44,6 @@ void MOSI::PrRd(ulong addr, int processor_number) {
                 update_LRU(line);
                 }
                 else if(state == S) {
-                        cache2cache++;
                         update_LRU(line);
                 }
         }
@@ -74,7 +73,7 @@ void MOSI::PrWr(ulong addr, int processor_number) {
                 else if (state == S) {
                         S2M++;
                         line->set_state(M);
-
+                        cache2cache++;
                         update_LRU(line);
                         bus_upgrades++;
                         sendBusUpgr(addr, processor_number);
