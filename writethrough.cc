@@ -24,8 +24,8 @@ void writethrough::PrRd(ulong addr, int processor_number) {
                 //read_misses++;
                 cache_line *newline = allocate_line(addr);
                 newline->set_state(V);
-                //bus_reads++;
-                //sendBusRd(addr, processor_number);
+                bus_reads++;
+                sendBusRd(addr, processor_number);
         }
         else {
                 state=line->get_state();
