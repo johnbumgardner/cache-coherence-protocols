@@ -51,15 +51,16 @@ void writethrough::PrWr(ulong addr, int processor_number) {
     if (line == NULL || line->get_state() == I){
                 write_misses++;
                 cache_line *newline = allocate_line(addr);
+                newline->set_state(I);
                 memory_transactions++;
                 bus_writes++;
-                sendBusWrite(addr, processor_number);
+                ssendBusWr(addr, processor_number);
      }
     else
 {
                 update_LRU(line);
                 bus_writes++;
-                sendBusWrite(addr, processor_number);
+                sendBusWr(addr, processor_number);
                 
          }
 }
