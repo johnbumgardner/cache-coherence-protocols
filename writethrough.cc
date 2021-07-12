@@ -46,7 +46,7 @@ void writethrough::PrRd(ulong addr, int processor_number) {
 void writethrough::PrWr(ulong addr, int processor_number) {
     current_cycle++;
     writes++;
-    write_backs = writes
+    write_backs = writes;
     cache_line * line = find_line(addr);
 
     if (line == NULL || line->get_state() == I){
