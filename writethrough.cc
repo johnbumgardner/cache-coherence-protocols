@@ -45,11 +45,13 @@ void writethrough::PrRd(ulong addr, int processor_number) {
 void writethrough::PrWr(ulong addr, int processor_number) {
     current_cycle++;
     writes++;
-    memory_transactions++;
-        write_backs++;
     cache_line * line = find_line(addr);
     if(line == NULL) {
         write_misses++;
+    }
+    else {
+        memory_transactions++;
+        write_backs++;
     }
     if (line == NULL || line->get_state() == I){
                 cache_line *newline = allocate_line(addr);
