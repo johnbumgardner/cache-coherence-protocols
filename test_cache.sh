@@ -2,7 +2,7 @@
 
 OUTN=4
 swaptions_truncated='/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_truncated'
-for protocol in 1
+for protocol in 0 1 4 7
 do
 for cachesize in 128000 256000 512000
 do
