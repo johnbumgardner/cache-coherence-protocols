@@ -12,8 +12,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     2615
 4 . number of write misses:               405
 5 . total miss rate:                      0.108566
-6 . number of writebacks:                 350
-7 . number of memory transactions:        1029
+6 . number of writebacks:                 196
+7 . number of memory transactions:        5391
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              171
 10. number of invalidations:              156
@@ -28,8 +28,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5126705
 4 . number of write misses:               316874
 5 . total miss rate:                      0.034809
-6 . number of writebacks:                 810685
-7 . number of memory transactions:        1846703
+6 . number of writebacks:                 362468
+7 . number of memory transactions:        23499274
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              222788
 10. number of invalidations:              480795
@@ -44,8 +44,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     4965052
 4 . number of write misses:               177323
 5 . total miss rate:                      0.023626
-6 . number of writebacks:                 552620
-7 . number of memory transactions:        1262189
+6 . number of writebacks:                 248070
+7 . number of memory transactions:        22668323
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              169254
 10. number of invalidations:              329545
@@ -60,8 +60,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     1597675
 4 . number of write misses:               79995
 5 . total miss rate:                      0.029457
-6 . number of writebacks:                 225717
-7 . number of memory transactions:        504152
+6 . number of writebacks:                 95557
+7 . number of memory transactions:        7297026
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              66864
 10. number of invalidations:              138046
@@ -76,8 +76,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     1592506
 4 . number of write misses:               88096
 5 . total miss rate:                      0.031441
-6 . number of writebacks:                 258616
-7 . number of memory transactions:        563943
+6 . number of writebacks:                 101605
+7 . number of memory transactions:        7289297
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              80096
 10. number of invalidations:              165908
@@ -92,8 +92,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     1591768
 4 . number of write misses:               110002
 5 . total miss rate:                      0.038383
-6 . number of writebacks:                 280359
-7 . number of memory transactions:        633973
+6 . number of writebacks:                 123967
+7 . number of memory transactions:        7310357
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              76875
 10. number of invalidations:              167113
@@ -108,8 +108,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5128428
 4 . number of write misses:               264772
 5 . total miss rate:                      0.031567
-6 . number of writebacks:                 783015
-7 . number of memory transactions:        1752856
+6 . number of writebacks:                 310528
+7 . number of memory transactions:        23450725
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              236626
 10. number of invalidations:              510971
@@ -124,8 +124,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5121878
 4 . number of write misses:               264725
 5 . total miss rate:                      0.027409
-6 . number of writebacks:                 671922
-7 . number of memory transactions:        1490771
+6 . number of writebacks:                 313990
+7 . number of memory transactions:        23427270
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              189687
 10. number of invalidations:              381141
@@ -140,8 +140,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5129876
 4 . number of write misses:               262433
 5 . total miss rate:                      0.029560
-6 . number of writebacks:                 724797
-7 . number of memory transactions:        1623888
+6 . number of writebacks:                 294853
+7 . number of memory transactions:        23444793
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              216619
 10. number of invalidations:              462246
@@ -156,8 +156,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5129962
 4 . number of write misses:               329906
 5 . total miss rate:                      0.034228
-6 . number of writebacks:                 784998
-7 . number of memory transactions:        1783961
+6 . number of writebacks:                 359589
+7 . number of memory transactions:        23507831
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              214249
 10. number of invalidations:              457921
@@ -172,8 +172,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5124752
 4 . number of write misses:               272501
 5 . total miss rate:                      0.031446
-6 . number of writebacks:                 725205
-7 . number of memory transactions:        1665366
+6 . number of writebacks:                 321663
+7 . number of memory transactions:        23456636
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              214141
 10. number of invalidations:              430247
@@ -188,8 +188,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5104657
 4 . number of write misses:               143925
 5 . total miss rate:                      0.018294
-6 . number of writebacks:                 473145
-7 . number of memory transactions:        1051448
+6 . number of writebacks:                 213717
+7 . number of memory transactions:        23247879
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              152921
 10. number of invalidations:              278910
@@ -204,8 +204,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5003049
 4 . number of write misses:               265389
 5 . total miss rate:                      0.028522
-6 . number of writebacks:                 692530
-7 . number of memory transactions:        1530343
+6 . number of writebacks:                 292008
+7 . number of memory transactions:        22866584
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              200190
 10. number of invalidations:              427202
@@ -220,8 +220,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5108336
 4 . number of write misses:               226694
 5 . total miss rate:                      0.024273
-6 . number of writebacks:                 620898
-7 . number of memory transactions:        1375924
+6 . number of writebacks:                 301279
+7 . number of memory transactions:        23362526
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              191739
 10. number of invalidations:              340862
@@ -236,8 +236,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     4982051
 4 . number of write misses:               192491
 5 . total miss rate:                      0.025708
-6 . number of writebacks:                 564162
-7 . number of memory transactions:        1319091
+6 . number of writebacks:                 260722
+7 . number of memory transactions:        22757632
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              170333
 10. number of invalidations:              327295
@@ -252,8 +252,8 @@ TRACE FILE:		/afs/eos.ncsu.edu/lockers/workspace/csc/CSC506-1/trace/swaptions_tr
 3 . number of writes:                     5123913
 4 . number of write misses:               258019
 5 . total miss rate:                      0.029352
-6 . number of writebacks:                 696572
-7 . number of memory transactions:        1578551
+6 . number of writebacks:                 310369
+7 . number of memory transactions:        23439713
 8 . number of cache-to-cache transfers:   0
 9 . number of interventions:              198791
 10. number of invalidations:              415903
